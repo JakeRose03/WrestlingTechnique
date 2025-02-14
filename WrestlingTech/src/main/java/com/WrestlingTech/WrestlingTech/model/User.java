@@ -33,6 +33,12 @@ public class User {
         this.email = email;
         this.role = role;
     }
+    public User(){
+
+    }
+    public long getId(){
+        return id;
+    }
 
 
     public String getUsername() {
@@ -43,4 +49,10 @@ public class User {
         return email;
     }
 
+    public String getPassword() {
+        return password;
+    }
+    public Role getRole(){
+        return role;
+    }
 }
